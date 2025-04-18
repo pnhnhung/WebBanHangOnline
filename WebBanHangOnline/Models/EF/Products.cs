@@ -32,7 +32,10 @@ namespace WebBanHangOnline.Models.EF
         [AllowHtml]
         public string Detail { get; set; }
         public string Image { get; set; }
+        public double OriginalPrice { get; set; }
         public double Price { get; set; }
+    
+       
         public bool isActive { get; set; }
         public double? PriceSale { get; set; }
         public bool isHome { get; set; }

@@ -111,27 +111,44 @@
                                             @Html.ValidationMessageFor(x => x.Detail, null, new { @class = "text-danger" })
                                         </div>
                                         <div class="row">
-                                            <div class="col-4">
+                                            <div class="col-3">
                                                 <div class="form-group">
                                                     <label for="exampleInputEmail1">Số lượng</label>
                                                     @Html.TextBoxFor(x => x.Quantity, new { @class = "form-control", @Value = "1" })
                                                     @Html.ValidationMessageFor(x => x.Detail, null, new { @class = "text-danger" })
                                                 </div>
                                             </div>
-                                            <div class="col-4">
+                                            <div class="col-3">
                                                 <div class="form-group">
                                                     <label for="exampleInputEmail1">Giá</label>
                                                     @Html.TextBoxFor(x => x.Price, new { @class = "form-control", @placeholder = "Giá" })
                                                     @Html.ValidationMessageFor(x => x.Detail, null, new { @class = "text-danger" })
                                                 </div>
                                             </div>
-                                            <div class="col-4">
+                                            <div class="col-3">
                                                 <div class="form-group">
                                                     <label for="exampleInputEmail1">Giá khuyến mãi</label>
-                                                    @Html.TextBoxFor(x => x.PriceSale, new { @class = "form-control", @placeholder = "Giá khuyến mãi"})
+                                                    @Html.TextBoxFor(x => x.PriceSale, new { @class = "form-control", @placeholder = "Giá khuyến mãi" })
                                                     @Html.ValidationMessageFor(x => x.Detail, null, new { @class = "text-danger" })
                                                 </div>
                                             </div>
+
+                                            <div class="col-3">
+                                                <div class="form-group">
+                                                    <label for="exampleInputEmail1">Giá nhập</label>
+                                                    @Html.TextBoxFor(x => x.OriginalPrice, new { @class = "form-control", @placeholder = "Giá nhập" })
+                                                    @Html.ValidationMessageFor(x => x.Detail, null, new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+
+                                            @*<div class="col-3">
+                                                <div class="form-group">
+                                                    <label for="exampleInputEmail1">Giá nhập</label>
+                                                    <input type="text" name="demoOriginalPrice" id="demoOriginalPrice" value="@Model.OriginalPrice" class="form-control auto" />
+                                                    @Html.HiddenFor(x => x.OriginalPrice, new { @class = "form-control", @placeholder = "Giá nhập" })
+                                                    @Html.ValidationMessageFor(x => x.OriginalPrice, null, new { @class = "text-danger" })
+                                                </div>
+                                            </div>*@
                                         </div>
 
                                         <div class="row">
@@ -278,6 +295,14 @@
                     $('#tCurrentId').val(currentId);
                 }
             });
+
+
+
+            //$('#demoOriginalPrice').bind('blur focusout keypress keyup', function () {
+            //    var demoGet = $('#demoOriginalPrice').autoNumeric('get');
+            //    $('#demoOriginalPrice').val(demoGet);
+            //    $('#demoOriginalPrice').autoNumeric('set', demoGet);
+            //});
         });
        
 
