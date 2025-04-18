@@ -2,17 +2,19 @@
 
 Dự án xây dựng một trang web thương mại điện tử chuyên bán **mũ bảo hiểm** với đầy đủ chức năng từ quản lý sản phẩm, đặt hàng đến quản lý đơn hàng. Ngoài ra, hệ thống còn được **kiểm thử tự động bằng Selenium** nhằm đảm bảo chất lượng và độ tin cậy.
 
+**⚠️ Lưu ý:** Đây **không phải là sản phẩm hoàn chỉnh**. Dự án này được tạo ra **chỉ nhằm phục vụ mục đích học tập và kiểm thử phần mềm**, đặc biệt là **kiểm thử tự động bằng Selenium**.
+
 ---
 
 ## 👥 Thành viên nhóm (Nhóm 5 người)
 
-| Họ và Tên         | Vai Trò                       |
-|-------------------|-------------------------------|
-| Nguyễn Văn A      | Trưởng nhóm, quản lý dự án    |
-| Trần Thị B        | Lập trình backend              |
-| Lê Văn C          | Lập trình frontend             |
-| Phạm Thị D        | Thiết kế giao diện, UI/UX     |
-| Huỳnh Minh E      | Viết test case & kiểm thử với Selenium |
+| Họ và Tên                     | Vai Trò                                |
+|-------------------------------|----------------------------------------|
+| Võ Hoàng Sanh                 | Trưởng nhóm, quản lý dự án             |
+| Phạm Nguyễn Hồng Nhung        | Viết test case & kiểm thử với Selenium |
+| Lê Nguyễn Trúc Quỳnh          | Viết test case & kiểm thử với Selenium |
+| Nguyễn Quang Duy              | Viết test case & kiểm thử với Selenium |
+| Đặng Minh Thông               | Viết test case & kiểm thử với Selenium |
 
 
 ---
@@ -52,5 +54,3 @@ Thư mục chứa các test case: `selenium/Intergrated_QLDH`
 
 ---
 
-## 📄 Giấy phép
-Dự án phục vụ mục đích học tập, phi thương mại.
