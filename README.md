@@ -45,7 +45,7 @@ Dự án xây dựng một trang web thương mại điện tử chuyên bán **
 
 Thư mục chứa các test case: `selenium/Intergrated_QLDH`
                             `selenium/ShoppingCart`
-
+Link file test case chi tiết (Excel): https://tinyurl.com/4rxpxuw6
 ---
 
 ## 📌 Ghi chú
